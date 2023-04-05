@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@300;400;500;700&display=swap');
+
 body {
     box-sizing: border-box;
     margin: 0;
+    background-color:  #394148;
 }
 
 /* Main Container */
@@ -14,6 +17,7 @@ body {
 /* Logo */
 .logo {
     grid-area: 1 / 1;
+    background-color: #394148;
 }
 
 /* Sidebar */
@@ -22,6 +26,8 @@ body {
     grid-column: 1;
     grid-row: 2 / 3;
     gap: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #394148;
 }
     .sidebar > div:nth-child(2) {
         align-self: end;
@@ -33,6 +39,8 @@ body {
     grid-column: 2 / -1;
     grid-row:  1;
     grid-template-columns: repeat(2, 1fr);
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(72, 85, 96, .7);
 }
 
     .header > div:nth-child(2) {
@@ -47,7 +55,9 @@ body {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(72, 85, 96, .7);
 }
 
 /* Main Content's Child Elements */
