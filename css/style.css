@@ -9,7 +9,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 0.7fr 4fr;
     height: 100vh;
 }
 
@@ -17,6 +17,8 @@ body {
 .logo {
     grid-area: 1 / 1;
     background-color: #394148;
+    padding: 1.25rem;
+    text-align: center;
 }
 
 /* Sidebar */
