@@ -3,7 +3,6 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    background-color:  #394148;
 }
 
 /* Main Container */
@@ -40,7 +39,7 @@ body {
     grid-row:  1;
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Press Start 2P', cursive;
-    background-color: rgb(72, 85, 96, .7);
+    background-color: #f5f5f5;
 }
 
     .header > div:nth-child(2) {
@@ -57,7 +56,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     font-family: 'Source Code Pro', monospace;
-    background-color: rgb(72, 85, 96, .7);
+    background-color: #f5f5f5;
 }
 
 /* Main Content's Child Elements */
