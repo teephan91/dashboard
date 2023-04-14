@@ -17,8 +17,9 @@ body {
 .logo {
     grid-area: 1 / 1;
     background-color: #394148;
-    padding: 1.25rem;
-    text-align: center;
+    padding: 0 1.25rem;
+    display: grid;
+    place-content: center;
 }
 
 /* Sidebar */
