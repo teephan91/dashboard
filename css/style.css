@@ -23,15 +23,40 @@ body {
 
 /* Sidebar */
 .sidebar {
-    display: grid;
     grid-column: 1;
     grid-row: 2 / 3;
-    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     font-family: Heebo, sans-serif;
+    font-size: 1.25rem;
+    color: #d4d4d4;
+    padding-bottom: 1.25rem;
     background-color: #394148;
 }
+    .sidebar > div:nth-child(1) {
+        display: grid;
+        grid-template-rows: repeat(6, min-content);
+        row-gap: 0.75rem;
+    }
     .sidebar > div:nth-child(2) {
-        align-self: end;
+        display: grid;
+        align-content: end;
+        row-gap: 0.75rem;
+    }
+
+    .sidebar > div div {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding-left: 1.25rem;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .sidebar > div div:hover {
+        color: #fac60c;
+        background-color: rgb(255, 255, 255, 0.1);
     }
 
 /* Header */
