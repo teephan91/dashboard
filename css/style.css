@@ -36,6 +36,7 @@ label {
 /* Sidebar */
 .sidebar {
     position: fixed;
+    z-index: 1;
     top: 0;
     bottom: 0;
     width: 285px;
