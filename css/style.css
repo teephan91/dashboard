@@ -28,7 +28,7 @@ label {
 /* Main Container */
 .main {
     display: grid;
-    grid-template-columns: 15% 1fr 0.5fr;
+    grid-template-columns: 285px 1fr 0.5fr;
     grid-template-rows: 0.5fr 2fr;
     height: 100vh;
 }
@@ -61,6 +61,7 @@ label {
         grid-template-rows: repeat(6, min-content);
         row-gap: 0.75rem;
     }
+
     .sidebar > div:nth-child(3) {
         display: grid;
         align-content: end;
@@ -369,4 +370,35 @@ label {
             grid-row: 3 / 4;
             margin-top: 25px;
         }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .main {
+        grid-template-columns:  200px 1fr 0.5fr;
+    }
+
+    .sidebar {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+        .logo {
+            height: 40px;
+        }
+
+    .header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+        .header > h1 {
+            font-size: 1.75rem;
+        }
+
+        .header > div:nth-child(3) {
+            font-size: 1rem;
+        }
+
+            .profile_pic {
+                height: 50px;
+            }
 }
