@@ -7,8 +7,8 @@ This is an admin dashboard with a side navigation bar, a header and a content se
 **[CLICK HERE TO VIEW THE PROJECT](https://teephan91.github.io/dashboard/)**
 
 ## Technology Used
-- [x] ![HTML](https://img.shields.io/badge/-HTML-000?style=flat&logo=html5&logoColor=394148&color=fac60c) ► **55.9%** 
-- [x] ![CSS](https://img.shields.io/badge/-CSS-000?style=flat&logo=css3&logoColor=394148&color=fac60c) ► **40.4%** 
+- [x] ![HTML](https://img.shields.io/badge/-HTML-000?style=flat&logo=html5&logoColor=394148&color=fac60c) ► **55.8%** 
+- [x] ![CSS](https://img.shields.io/badge/-CSS-000?style=flat&logo=css3&logoColor=394148&color=fac60c) ► **40.5%** 
 - [x] ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat&logoColor=394148&logo=javascript&color=fac60c) ► **3.7%**
 
 ## What I Did
